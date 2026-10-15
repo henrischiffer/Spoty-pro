@@ -1,0 +1,11 @@
+COMO GERAR O APK (sem instalar nada no PC)
+
+1. Crie uma conta em github.com (se ainda não tiver).
+2. Crie um repositório novo (ex.: MeuSpotify).
+3. Envie TODOS os arquivos desta pasta para o repositório
+   (botão "Add file" > "Upload files"). Inclua a pasta oculta .github.
+4. Abra a aba "Actions". O build "Build APK" roda sozinho (3 a 6 min).
+   Se não rodar, clique em "Build APK" > "Run workflow".
+5. Quando ficar verde, abra a execução e baixe "MeuSpotify-apk" em Artifacts.
+6. Descompacte o zip baixado: dentro está o app-debug.apk.
+7. Copie para o celular e instale (permita "Instalar apps desconhecidos").
